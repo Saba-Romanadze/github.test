@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli';
+}
+
+.flex {
+    display: flex;
+}
+
+body { 
+    flex-direction: column;
+    align-items: center;  
+    width: 100%;
+}
+
+header {
+    overflow-x: hidden;
+    
+    
+}
+
+.last {
+    margin-right: 0;
+}
+
+
+
+.grid {
+    display: grid;
+}
+
+@font-face {
+    font-family: 'Inter-medium';
+    src: url(../fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-regular';
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-bold';
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'DM-sans';
+    src: url(../fonts/DMSans-Medium.ttf);
+}
+
